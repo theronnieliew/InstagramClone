@@ -1,0 +1,13 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'InstagramClone' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+# Pods for InstagramClone
+pod 'Firebase/Core' #default firebase functionality
+pod 'Firebase/Database' #firebase realtime database
+pod 'Firebase/Auth' #fire base authentication
+pod 'Firebase/Storage' #Firebase storage
+end
