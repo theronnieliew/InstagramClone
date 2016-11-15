@@ -9,6 +9,8 @@
 import UIKit
 
 class LogInViewController: UIViewController {
+    @IBOutlet weak var emailTextInput: UITextField!
+    @IBOutlet weak var passwordTextInput: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +23,12 @@ class LogInViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func buttonLogInPressed(_ sender: UIButton) {
+    }
 
+    @IBAction func buttonSignUpPressed(_ sender: UIButton) {
+    }
+    
     /*
     // MARK: - Navigation
 

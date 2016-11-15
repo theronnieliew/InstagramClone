@@ -9,7 +9,12 @@
 import UIKit
 
 class SignUpViewController: UIViewController {
-
+    @IBOutlet weak var usernameTextInput: UITextField!
+    @IBOutlet weak var emailTextInput: UITextField!
+    @IBOutlet weak var passwordTextInput: UITextField!
+    @IBOutlet weak var confirmPasswordTextInput: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,6 +26,12 @@ class SignUpViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    @IBAction func buttonCreateAccountPressed(_ sender: UIButton) {
+    }
+    
+    @IBAction func buttonCancelPressed(_ sender: UIButton) {
+    }
 
     /*
     // MARK: - Navigation
