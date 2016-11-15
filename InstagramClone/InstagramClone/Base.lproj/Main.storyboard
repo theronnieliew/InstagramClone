@@ -14,7 +14,7 @@
         <!--Camera-->
         <scene sceneID="mUf-sv-7yc">
             <objects>
-                <viewController id="upT-Xa-GBb" customClass="CameraViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CameraViewController" id="upT-Xa-GBb" customClass="CameraViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5pC-of-ZRj"/>
                         <viewControllerLayoutGuide type="bottom" id="99p-wo-zrh"/>
@@ -36,7 +36,7 @@
         <!--Camera Detail View Controller-->
         <scene sceneID="XMK-fB-utG">
             <objects>
-                <viewController id="4iZ-pC-Bs0" customClass="CameraDetailViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CameraDetailViewController" id="4iZ-pC-Bs0" customClass="CameraDetailViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3fN-bk-x5F"/>
                         <viewControllerLayoutGuide type="bottom" id="Sy7-hg-j4a"/>
@@ -54,7 +54,7 @@
         <!--Profile-->
         <scene sceneID="u0F-Xo-fLI">
             <objects>
-                <viewController id="Clg-4G-znt" customClass="ProfileViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProfileViewController" id="Clg-4G-znt" customClass="ProfileViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3H-S1-gQA"/>
                         <viewControllerLayoutGuide type="bottom" id="KGe-oi-S3x"/>
@@ -161,7 +161,7 @@
         <!--Profile Edit View Controller-->
         <scene sceneID="alN-9e-ziN">
             <objects>
-                <viewController id="K7z-YY-6Mx" customClass="ProfileEditViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProfileEditViewController" id="K7z-YY-6Mx" customClass="ProfileEditViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nLT-XJ-ZYu"/>
                         <viewControllerLayoutGuide type="bottom" id="scL-e9-8eM"/>
@@ -268,7 +268,7 @@
         <!--Timeline-->
         <scene sceneID="N7l-ko-o5Q">
             <objects>
-                <viewController id="0tm-TH-sCs" customClass="TimelineViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TimelineViewController" id="0tm-TH-sCs" customClass="TimelineViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="823-8C-ZRh"/>
                         <viewControllerLayoutGuide type="bottom" id="6DF-PE-Cjh"/>
@@ -384,7 +384,7 @@
         <!--Friends Detail View Controller-->
         <scene sceneID="aCL-jP-wRP">
             <objects>
-                <viewController id="NHA-1J-oPr" customClass="FriendsDetailViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FriendsDetailViewController" id="NHA-1J-oPr" customClass="FriendsDetailViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="U90-ug-LTt"/>
                         <viewControllerLayoutGuide type="bottom" id="Oec-Gz-Wrt"/>
@@ -496,7 +496,7 @@
         <!--Friends Detail2 View Controller-->
         <scene sceneID="dh8-LH-P0F">
             <objects>
-                <viewController id="Ybr-9f-iNQ" customClass="FriendsDetail2ViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FriendsDetail2ViewController" id="Ybr-9f-iNQ" customClass="FriendsDetail2ViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="A4p-nj-5pu"/>
                         <viewControllerLayoutGuide type="bottom" id="4gl-rY-s5C"/>
@@ -594,7 +594,7 @@
         <!--Friends-->
         <scene sceneID="xP2-DF-oud">
             <objects>
-                <viewController id="sgK-NQ-NSm" customClass="FriendsViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FriendsViewController" id="sgK-NQ-NSm" customClass="FriendsViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1NX-0x-a0E"/>
                         <viewControllerLayoutGuide type="bottom" id="IrZ-PA-VMO"/>
@@ -680,7 +680,7 @@
         <!--Log In View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LogInViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="BYZ-38-t0r" customClass="LogInViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -775,7 +775,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="l6S-su-JqN">
             <objects>
-                <viewController id="6Q8-Ae-PFs" customClass="SignUpViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignUpViewController" id="6Q8-Ae-PFs" customClass="SignUpViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ide-Vx-ydc"/>
                         <viewControllerLayoutGuide type="bottom" id="Z5e-wa-7eq"/>
@@ -901,6 +901,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="FVl-2m-Y2d"/>
-        <segue reference="DE4-Y1-mT2"/>
+        <segue reference="TUd-6j-7bP"/>
     </inferredMetricsTieBreakers>
 </document>
