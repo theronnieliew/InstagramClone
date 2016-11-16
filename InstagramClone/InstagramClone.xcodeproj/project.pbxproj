@@ -15,6 +15,8 @@
 		165B09641DD9BF660074BB3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165B09621DD9BF660074BB3B /* LaunchScreen.storyboard */; };
 		165B096C1DD9C0B90074BB3B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 165B096B1DD9C0B90074BB3B /* GoogleService-Info.plist */; };
 		AF092EF11DDABEAD00F39010 /* ProfileEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF092EF01DDABEAD00F39010 /* ProfileEditViewController.swift */; };
+		AF092EF31DDB04F700F39010 /* FriendsDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF092EF21DDB04F700F39010 /* FriendsDetailCollectionViewCell.swift */; };
+		AF092EF51DDB071C00F39010 /* FriendPostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF092EF41DDB071C00F39010 /* FriendPostCollectionViewCell.swift */; };
 		AF1FFEF91DD9CDE4008B4089 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FFEF81DD9CDE4008B4089 /* LogInViewController.swift */; };
 		AF1FFEFB1DD9CE17008B4089 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FFEFA1DD9CE17008B4089 /* SignUpViewController.swift */; };
 		AF1FFEFD1DD9CE39008B4089 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FFEFC1DD9CE39008B4089 /* TimelineViewController.swift */; };
@@ -24,6 +26,8 @@
 		AF1FFF091DD9CFD3008B4089 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FFF081DD9CFD3008B4089 /* ProfileViewController.swift */; };
 		AF1FFF0F1DD9D09C008B4089 /* FriendsDetail2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FFF0E1DD9D09C008B4089 /* FriendsDetail2ViewController.swift */; };
 		AF1FFF111DD9D151008B4089 /* CameraDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FFF101DD9D151008B4089 /* CameraDetailViewController.swift */; };
+		AFF600D71DDC0DCC00E7A2D3 /* UserDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF600D61DDC0DCC00E7A2D3 /* UserDetailCollectionViewCell.swift */; };
+		AFF600D91DDC0E0200E7A2D3 /* UserPostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF600D81DDC0E0200E7A2D3 /* UserPostCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,8 @@
 		19A09F1EDC8F5AEC26C61915 /* Pods-InstagramClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramClone.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramClone/Pods-InstagramClone.release.xcconfig"; sourceTree = "<group>"; };
 		28C1DF95A0D3370CD10F1195 /* Pods-InstagramClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramClone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramClone/Pods-InstagramClone.debug.xcconfig"; sourceTree = "<group>"; };
 		AF092EF01DDABEAD00F39010 /* ProfileEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileEditViewController.swift; path = Base.lproj/VController/ProfileEditViewController.swift; sourceTree = "<group>"; };
+		AF092EF21DDB04F700F39010 /* FriendsDetailCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendsDetailCollectionViewCell.swift; path = Base.lproj/Views/FriendsDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		AF092EF41DDB071C00F39010 /* FriendPostCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendPostCollectionViewCell.swift; path = Base.lproj/Views/FriendPostCollectionViewCell.swift; sourceTree = "<group>"; };
 		AF1FFEF81DD9CDE4008B4089 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogInViewController.swift; path = Base.lproj/VController/LogInViewController.swift; sourceTree = "<group>"; };
 		AF1FFEFA1DD9CE17008B4089 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = Base.lproj/VController/SignUpViewController.swift; sourceTree = "<group>"; };
 		AF1FFEFC1DD9CE39008B4089 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimelineViewController.swift; path = Base.lproj/VController/TimelineViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,8 @@
 		AF1FFF081DD9CFD3008B4089 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = Base.lproj/VController/ProfileViewController.swift; sourceTree = "<group>"; };
 		AF1FFF0E1DD9D09C008B4089 /* FriendsDetail2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsDetail2ViewController.swift; sourceTree = "<group>"; };
 		AF1FFF101DD9D151008B4089 /* CameraDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraDetailViewController.swift; path = Base.lproj/VController/CameraDetailViewController.swift; sourceTree = "<group>"; };
+		AFF600D61DDC0DCC00E7A2D3 /* UserDetailCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserDetailCollectionViewCell.swift; path = Base.lproj/Views/UserDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		AFF600D81DDC0E0200E7A2D3 /* UserPostCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserPostCollectionViewCell.swift; path = Base.lproj/Views/UserPostCollectionViewCell.swift; sourceTree = "<group>"; };
 		D9BF2CF2E5DA427949CB6703 /* Pods_InstagramClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -87,6 +95,13 @@
 				AF1FFEF61DD9CC15008B4089 /* Controllers */,
 				AF1FFEF51DD9CC0A008B4089 /* Views */,
 				AF1FFEF41DD9CBF3008B4089 /* Helper */,
+				165B09591DD9BF660074BB3B /* AppDelegate.swift */,
+				165B095B1DD9BF660074BB3B /* ViewController.swift */,
+				165B095D1DD9BF660074BB3B /* Main.storyboard */,
+				165B09601DD9BF660074BB3B /* Assets.xcassets */,
+				165B09621DD9BF660074BB3B /* LaunchScreen.storyboard */,
+				165B096B1DD9C0B90074BB3B /* GoogleService-Info.plist */,
+				165B09651DD9BF660074BB3B /* Info.plist */,
 			);
 			path = InstagramClone;
 			sourceTree = "<group>";
@@ -118,6 +133,10 @@
 		AF1FFEF51DD9CC0A008B4089 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AF092EF21DDB04F700F39010 /* FriendsDetailCollectionViewCell.swift */,
+				AF092EF41DDB071C00F39010 /* FriendPostCollectionViewCell.swift */,
+				AFF600D61DDC0DCC00E7A2D3 /* UserDetailCollectionViewCell.swift */,
+				AFF600D81DDC0E0200E7A2D3 /* UserPostCollectionViewCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -142,13 +161,6 @@
 		AF1FFEF71DD9CC2A008B4089 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				165B09591DD9BF660074BB3B /* AppDelegate.swift */,
-				165B095B1DD9BF660074BB3B /* ViewController.swift */,
-				165B095D1DD9BF660074BB3B /* Main.storyboard */,
-				165B09601DD9BF660074BB3B /* Assets.xcassets */,
-				165B09621DD9BF660074BB3B /* LaunchScreen.storyboard */,
-				165B096B1DD9C0B90074BB3B /* GoogleService-Info.plist */,
-				165B09651DD9BF660074BB3B /* Info.plist */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -285,9 +297,13 @@
 				AF1FFF051DD9CF69008B4089 /* FriendsDetailViewController.swift in Sources */,
 				AF1FFEFB1DD9CE17008B4089 /* SignUpViewController.swift in Sources */,
 				AF1FFF011DD9CED8008B4089 /* FriendsViewController.swift in Sources */,
+				AFF600D71DDC0DCC00E7A2D3 /* UserDetailCollectionViewCell.swift in Sources */,
 				AF1FFEF91DD9CDE4008B4089 /* LogInViewController.swift in Sources */,
 				AF1FFEFD1DD9CE39008B4089 /* TimelineViewController.swift in Sources */,
 				AF1FFF071DD9CFAD008B4089 /* CameraViewController.swift in Sources */,
+				AF092EF31DDB04F700F39010 /* FriendsDetailCollectionViewCell.swift in Sources */,
+				AF092EF51DDB071C00F39010 /* FriendPostCollectionViewCell.swift in Sources */,
+				AFF600D91DDC0E0200E7A2D3 /* UserPostCollectionViewCell.swift in Sources */,
 				AF1FFF0F1DD9D09C008B4089 /* FriendsDetail2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
