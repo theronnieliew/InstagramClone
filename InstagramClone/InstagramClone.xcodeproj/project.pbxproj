@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		088D3B2EE493CB7F762D44A7 /* Pods_InstagramClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BF2CF2E5DA427949CB6703 /* Pods_InstagramClone.framework */; };
+		1636587E1DDAFA6C00322BC9 /* TimelineViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1636587D1DDAFA6C00322BC9 /* TimelineViewCell.swift */; };
+		163658801DDB021000322BC9 /* Polaroid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1636587F1DDB021000322BC9 /* Polaroid.swift */; };
 		165B095A1DD9BF660074BB3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165B09591DD9BF660074BB3B /* AppDelegate.swift */; };
 		165B095C1DD9BF660074BB3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165B095B1DD9BF660074BB3B /* ViewController.swift */; };
 		165B095F1DD9BF660074BB3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165B095D1DD9BF660074BB3B /* Main.storyboard */; };
 		165B09611DD9BF660074BB3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165B09601DD9BF660074BB3B /* Assets.xcassets */; };
 		165B09641DD9BF660074BB3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165B09621DD9BF660074BB3B /* LaunchScreen.storyboard */; };
 		165B096C1DD9C0B90074BB3B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 165B096B1DD9C0B90074BB3B /* GoogleService-Info.plist */; };
+		16F84D131DDD932500A2DD55 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F84D121DDD932500A2DD55 /* Extension.swift */; };
 		AF092EF11DDABEAD00F39010 /* ProfileEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF092EF01DDABEAD00F39010 /* ProfileEditViewController.swift */; };
 		AF092EF31DDB04F700F39010 /* FriendsDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF092EF21DDB04F700F39010 /* FriendsDetailCollectionViewCell.swift */; };
 		AF092EF51DDB071C00F39010 /* FriendPostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF092EF41DDB071C00F39010 /* FriendPostCollectionViewCell.swift */; };
@@ -33,6 +36,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1636587D1DDAFA6C00322BC9 /* TimelineViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimelineViewCell.swift; path = Views/TimelineViewCell.swift; sourceTree = "<group>"; };
+		1636587F1DDB021000322BC9 /* Polaroid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Polaroid.swift; sourceTree = "<group>"; };
 		165B09561DD9BF660074BB3B /* InstagramClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		165B09591DD9BF660074BB3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		165B095B1DD9BF660074BB3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +46,7 @@
 		165B09631DD9BF660074BB3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		165B09651DD9BF660074BB3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		165B096B1DD9C0B90074BB3B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		16F84D121DDD932500A2DD55 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extension.swift; path = Helper/Extension.swift; sourceTree = "<group>"; };
 		19A09F1EDC8F5AEC26C61915 /* Pods-InstagramClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramClone.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramClone/Pods-InstagramClone.release.xcconfig"; sourceTree = "<group>"; };
 		28C1DF95A0D3370CD10F1195 /* Pods-InstagramClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramClone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramClone/Pods-InstagramClone.debug.xcconfig"; sourceTree = "<group>"; };
 		AF092EF01DDABEAD00F39010 /* ProfileEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileEditViewController.swift; path = Base.lproj/VController/ProfileEditViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +136,7 @@
 		AF1FFEF41DD9CBF3008B4089 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				16F84D121DDD932500A2DD55 /* Extension.swift */,
 				AFFC59F91DDD638200E14176 /* FriendSearch.swift */,
 			);
 			name = Helper;
@@ -138,6 +145,7 @@
 		AF1FFEF51DD9CC0A008B4089 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1636587D1DDAFA6C00322BC9 /* TimelineViewCell.swift */,
 				AF092EF21DDB04F700F39010 /* FriendsDetailCollectionViewCell.swift */,
 				AF092EF41DDB071C00F39010 /* FriendPostCollectionViewCell.swift */,
 				AFF600D61DDC0DCC00E7A2D3 /* UserDetailCollectionViewCell.swift */,
@@ -167,6 +175,14 @@
 		AF1FFEF71DD9CC2A008B4089 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				165B09591DD9BF660074BB3B /* AppDelegate.swift */,
+				165B095B1DD9BF660074BB3B /* ViewController.swift */,
+				165B095D1DD9BF660074BB3B /* Main.storyboard */,
+				165B09601DD9BF660074BB3B /* Assets.xcassets */,
+				165B09621DD9BF660074BB3B /* LaunchScreen.storyboard */,
+				165B096B1DD9C0B90074BB3B /* GoogleService-Info.plist */,
+				165B09651DD9BF660074BB3B /* Info.plist */,
+				1636587F1DDB021000322BC9 /* Polaroid.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -295,8 +311,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1636587E1DDAFA6C00322BC9 /* TimelineViewCell.swift in Sources */,
 				AF1FFF111DD9D151008B4089 /* CameraDetailViewController.swift in Sources */,
 				165B095C1DD9BF660074BB3B /* ViewController.swift in Sources */,
+				163658801DDB021000322BC9 /* Polaroid.swift in Sources */,
 				AF1FFF091DD9CFD3008B4089 /* ProfileViewController.swift in Sources */,
 				AFFC59FA1DDD638200E14176 /* FriendSearch.swift in Sources */,
 				165B095A1DD9BF660074BB3B /* AppDelegate.swift in Sources */,
@@ -304,6 +322,7 @@
 				AF1FFF051DD9CF69008B4089 /* FriendsDetailViewController.swift in Sources */,
 				AF1FFEFB1DD9CE17008B4089 /* SignUpViewController.swift in Sources */,
 				AF1FFF011DD9CED8008B4089 /* FriendsViewController.swift in Sources */,
+				16F84D131DDD932500A2DD55 /* Extension.swift in Sources */,
 				AFF600D71DDC0DCC00E7A2D3 /* UserDetailCollectionViewCell.swift in Sources */,
 				AF1FFEF91DD9CDE4008B4089 /* LogInViewController.swift in Sources */,
 				AF1FFEFD1DD9CE39008B4089 /* TimelineViewController.swift in Sources */,
