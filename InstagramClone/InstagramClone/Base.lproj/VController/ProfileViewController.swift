@@ -10,7 +10,7 @@ import UIKit
 
 class ProfileViewController: UIViewController {
     let itemsPerRow: CGFloat = 3
-    fileprivate let sectionInsect = UIEdgeInsetsMake(0.0, 15.0, 5.0, 20.0)
+    fileprivate let sectionInsect = UIEdgeInsetsMake(0.0, 15.0, 0.0, 15.0)
     @IBOutlet weak var userUserNameLabel: UILabel!
     @IBOutlet weak var profileCollectionView: UICollectionView! {
         didSet{
