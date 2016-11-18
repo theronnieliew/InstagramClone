@@ -26,6 +26,7 @@
 		AF1FFF091DD9CFD3008B4089 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FFF081DD9CFD3008B4089 /* ProfileViewController.swift */; };
 		AF1FFF0F1DD9D09C008B4089 /* FriendsDetail2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FFF0E1DD9D09C008B4089 /* FriendsDetail2ViewController.swift */; };
 		AF1FFF111DD9D151008B4089 /* CameraDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1FFF101DD9D151008B4089 /* CameraDetailViewController.swift */; };
+		AFB379591DDEA17000D6DF26 /* FriendsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB379581DDEA17000D6DF26 /* FriendsDetail.swift */; };
 		AFF600D71DDC0DCC00E7A2D3 /* UserDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF600D61DDC0DCC00E7A2D3 /* UserDetailCollectionViewCell.swift */; };
 		AFF600D91DDC0E0200E7A2D3 /* UserPostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF600D81DDC0E0200E7A2D3 /* UserPostCollectionViewCell.swift */; };
 		AFFC59F81DDD59FF00E14176 /* FriendSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFC59F71DDD59FF00E14176 /* FriendSearchTableViewCell.swift */; };
@@ -55,6 +56,7 @@
 		AF1FFF081DD9CFD3008B4089 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = Base.lproj/VController/ProfileViewController.swift; sourceTree = "<group>"; };
 		AF1FFF0E1DD9D09C008B4089 /* FriendsDetail2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsDetail2ViewController.swift; sourceTree = "<group>"; };
 		AF1FFF101DD9D151008B4089 /* CameraDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraDetailViewController.swift; path = Base.lproj/VController/CameraDetailViewController.swift; sourceTree = "<group>"; };
+		AFB379581DDEA17000D6DF26 /* FriendsDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendsDetail.swift; path = Base.lproj/helper/FriendsDetail.swift; sourceTree = "<group>"; };
 		AFF600D61DDC0DCC00E7A2D3 /* UserDetailCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserDetailCollectionViewCell.swift; path = Base.lproj/Views/UserDetailCollectionViewCell.swift; sourceTree = "<group>"; };
 		AFF600D81DDC0E0200E7A2D3 /* UserPostCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserPostCollectionViewCell.swift; path = Base.lproj/Views/UserPostCollectionViewCell.swift; sourceTree = "<group>"; };
 		AFFC59F71DDD59FF00E14176 /* FriendSearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendSearchTableViewCell.swift; path = Base.lproj/Views/FriendSearchTableViewCell.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				AFFC59F91DDD638200E14176 /* FriendSearch.swift */,
+				AFB379581DDEA17000D6DF26 /* FriendsDetail.swift */,
 			);
 			name = Helper;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				AF1FFF011DD9CED8008B4089 /* FriendsViewController.swift in Sources */,
 				AFF600D71DDC0DCC00E7A2D3 /* UserDetailCollectionViewCell.swift in Sources */,
 				AF1FFEF91DD9CDE4008B4089 /* LogInViewController.swift in Sources */,
+				AFB379591DDEA17000D6DF26 /* FriendsDetail.swift in Sources */,
 				AF1FFEFD1DD9CE39008B4089 /* TimelineViewController.swift in Sources */,
 				AF1FFF071DD9CFAD008B4089 /* CameraViewController.swift in Sources */,
 				AF092EF31DDB04F700F39010 /* FriendsDetailCollectionViewCell.swift in Sources */,

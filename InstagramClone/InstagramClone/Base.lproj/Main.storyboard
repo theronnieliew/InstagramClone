@@ -162,7 +162,7 @@
                                         </connections>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="profilePostCell" id="8j1-Zu-MzI" userLabel="profilePostImageCell" customClass="UserPostCollectionViewCell" customModule="InstagramClone" customModuleProvider="target">
-                                        <rect key="frame" x="127.5" y="205" width="120" height="120"/>
+                                        <rect key="frame" x="128" y="205" width="120" height="120"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
@@ -374,7 +374,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="532"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mxz-ks-Ose" id="NYm-XT-hcy">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="532"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="531"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R5n-Uu-oEN" userLabel="timelineUsernameButton">
@@ -528,8 +528,8 @@
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Full Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJK-TO-nJf" userLabel="fullnameLabel">
-                                                    <rect key="frame" x="8" y="116" width="76.5" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJK-TO-nJf" userLabel="emailLabel">
+                                                    <rect key="frame" x="8" y="116" width="41" height="21"/>
                                                     <color key="backgroundColor" red="0.66702641959999998" green="1" blue="0.43777709720000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -571,11 +571,11 @@
                                             <outlet property="friendFollowerLabel" destination="Se9-9E-ChH" id="ma5-P5-AfF"/>
                                             <outlet property="friendFollowingLabel" destination="Ihl-Es-pJI" id="BMJ-Qd-2dP"/>
                                             <outlet property="friendProfileImage" destination="pRb-9O-YZa" id="UGP-Yv-ngb"/>
-                                            <outlet property="fullnameLabel" destination="fJK-TO-nJf" id="DAK-3u-o61"/>
+                                            <outlet property="friendemailLabel" destination="fJK-TO-nJf" id="loQ-1U-aHL"/>
                                         </connections>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="friendsPostCell" id="rcf-bV-0Ci" userLabel="friendsPostCell" customClass="FriendPostCollectionViewCell" customModule="InstagramClone" customModuleProvider="target">
-                                        <rect key="frame" x="127.5" y="205" width="120" height="120"/>
+                                        <rect key="frame" x="128" y="205" width="120" height="120"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>

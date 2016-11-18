@@ -7,6 +7,10 @@
 //
 
 import UIKit
+//import Firebase
+//import FirebaseDatabase
+//var frDBref : FIRDatabaseReference!
+
 
 class FriendsDetailViewController: UIViewController {
     let itemsPerRow: CGFloat = 3
@@ -20,12 +24,15 @@ class FriendsDetailViewController: UIViewController {
         }
     }
     @IBOutlet weak var titleLabel: UILabel!
+    var buddyDetails: [FriendDetail] = []
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
         titleLabel.text = "Najib / Najis"
         titleLabel.textAlignment = NSTextAlignment.center
+//        frDBref = FIRDatabase.database().reference()
+        
         // Do any additional setup after loading the view.
     }
 
@@ -33,6 +40,29 @@ class FriendsDetailViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+//    private func fetchUserDetail ()
+//    {
+//        frDBref.child("users").observe(.childAdded, with: { (snapshot) in
+//            let buddy = FriendDetail ()
+//            guard let friendDictionary = snapshot.value as? [String : AnyObject]
+//                else{
+//                    return
+//            }
+//            
+//            if (friendDictionary["uid"] as? String) != uid{
+//                return
+//            }
+//            
+//            buddy.username = friendDictionary["username"] as? String
+//            buddy.email = friendDictionary["email"] as? String
+//            buddy.profileImage = friendDictionary["profile-picture"] as? UIImage
+//            
+//            self.buddyDetails.append(buddy)
+//            self.friendsCollectionView.reloadData()
+//            
+//        })
+//    }
 
 }
 
@@ -52,7 +82,7 @@ extension FriendsDetailViewController: UICollectionViewDataSource
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "friendsDetailCollectionCell", for: indexPath) as! FriendsDetailCollectionViewCell
         
             cell.friendProfileImage.image = UIImage(named:"busuk")
-            cell.fullnameLabel.text = "Ah Jib Gor"
+            cell.friendemailLabel.text = "ahJibGor@gmail.com"
             return cell
 
         }

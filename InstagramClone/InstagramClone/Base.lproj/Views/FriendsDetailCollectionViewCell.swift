@@ -13,7 +13,8 @@ class FriendsDetailCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var friendProfileImage: UIImageView!
     @IBOutlet weak var friendFollowingLabel: UILabel!
     @IBOutlet weak var friendFollowerLabel: UILabel!
-    @IBOutlet weak var fullnameLabel: UILabel!
+   
+    @IBOutlet weak var friendemailLabel: UILabel!
 
     @IBOutlet weak var friendDetailText: UITextView!
     
