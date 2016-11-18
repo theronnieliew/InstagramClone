@@ -9,6 +9,10 @@
 import UIKit
 
 class ProfileEditViewController: UIViewController {
+    @IBOutlet weak var editProfileImage: UIImageView!
+    @IBOutlet weak var editUsernameText: UITextField!
+    @IBOutlet weak var editEmailText: UITextField!
+    @IBOutlet weak var editPasswordText: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +25,13 @@ class ProfileEditViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func cancelButtonPressed(_ sender: UIBarButtonItem) {
+        dismiss(animated: true, completion: nil)
+    }
 
+    @IBAction func editDoneButton(_ sender: UIButton) {
+       dismiss(animated: true, completion: nil)
+    }
     /*
     // MARK: - Navigation
 
